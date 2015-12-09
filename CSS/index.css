@@ -1,0 +1,50 @@
+body{
+    overflow:hidden;
+}
+
+
+.Container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: lightgrey;
+}
+.TopBar{
+    position: absolute;
+    height: 19%;
+    width: 99%;
+    border: solid;
+    border-width: 1px;
+    background-color: grey;
+    
+}
+.LeftBar{
+    position: absolute;
+    height: 79%;
+    width: 20%;
+    top: 20%;
+    border: solid;
+    border-width: 1px;
+    background-color: grey;
+}
+.RightBar{
+    position: absolute;
+    top: 20%;
+    right: 1%;
+    height: 79%;
+    width: 19%;
+    border: solid;
+    border-width: 1px;
+    background-color: grey;
+}
+
+.MainDiv{
+    position: absolute;
+    top: 20%;
+    left: 20.5%;
+    height: 79%;
+    width: 59%;
+    border: solid;
+    border-width: 1px;
+    background-color: grey;
+}
